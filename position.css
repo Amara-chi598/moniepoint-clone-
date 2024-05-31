@@ -1,0 +1,25 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.space{
+    position: relative;
+}
+
+.space h2{
+    font-size: 30px;
+}
+
+.space p{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    background-color: orangered;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 50%;
+}

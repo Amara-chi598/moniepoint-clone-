@@ -1,0 +1,51 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* =================FLEX STYLING================== */
+
+/* .flexdiv{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.flexdiv p{
+    background-color: blueviolet;
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+} */
+
+/* ==================GRID STYLING================== */
+
+/* .griddiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.griddiv p{
+    background-color: blue;
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+} */
+
+.CLASSWORK{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.CLASSWORK p{
+    background-color: white;
+    padding: 20px;
+}
+
+.CLASSWORK img{
+}

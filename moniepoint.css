@@ -1,0 +1,905 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body{
+    background-color: #f9fafb;
+}
+
+
+/* ====== NAV BAR ======= */
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 20px 5%;
+    background-color:  rgb(2, 2, 58);;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 100;
+}
+
+.leftDiv{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.leftDiv img{
+    width: 100px;
+    height: 25px;
+    /* border-radius: 10px; */
+}
+
+.leftDiv button{
+    background-color: lightblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.leftDiv p{
+    color: white;
+}
+
+.rightDiv{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rightDiv ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.rightDiv ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightDiv  button{
+    background-color: lightblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.rightDiv img{
+    width: 50px;
+    border-radius: 150%;
+    width: 25px;
+    height: 25px;
+}
+
+.rightDiv ul li{
+    list-style: none;
+}
+
+/* ======== SECTION ONE ======= */
+
+.sectionOne{
+    display: flex;
+    align-items: center;
+    background-color: rgb(2, 2, 58);
+    background-size: cover;
+    padding: 0 5%;
+    padding-top: 12%;
+    gap: 40px;
+    width: 100%;
+}
+
+.sectionOne{
+    position: relative;
+}
+
+.sectionOneFirst{
+    width: 100%;
+}
+
+.sectionOneFirst .firstButton{
+    background-color: lightblue;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin: 2% 0;
+}
+
+.sectionOneFirst p{
+    font-size: 50px;
+    color: white;
+    line-height: 3.5rem;
+    font-weight:bold;
+    margin: 5% 0;
+}
+
+.sectionOneFirst p span{
+    color:skyblue;
+}
+
+.sectionOneFirst h2{
+    font-size: 15px;
+    margin: 5% 0;
+    color: lightblue;
+}
+
+.sectionOneFirst .secondButton{
+    background-color: blue;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 4% 0 8% 0;
+}
+
+.secondOneSecond{
+    width: 100%;
+}
+
+.sectionOneSecond img{
+    width: 115%;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+/* ======= SECTION TWO ======= */
+
+.sectionTwo{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; */
+    /* justify-content: center; */
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 90%;
+}
+
+.sectionTwo{
+    position: relative;
+    top: 100%;
+    left: 60px;
+    top: -50px;
+}
+
+.sectionTwoFirst{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.sectionTwoFirst p{
+    color: darkblue;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.sectionTwoFirst h2{
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+/* .sectionTwoSecond{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+} */
+
+.sectionTwoFirst h3{
+    font-size: 100px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide p{
+    font-size: 12px;
+    text-align: left;
+  }
+
+    /* ======= SECTION THREE ======== */
+    /* .sectionThree{
+        background-color: rgb(240, 240, 247);
+    } */
+
+    .sectionThreeFirst p{
+        font-size: 30px;
+        color: rgb(9, 34, 86);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .sectionThreeSecond ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        background-size: cover;
+        border-radius: 50px;
+        margin: 20px 20%;
+        padding: 30px;
+        /* width: 100px; */
+    }
+
+    .sectionThreeSecond ul li{
+        list-style: none;
+        color: rgb(9, 34, 86);
+        padding: 15px;
+    }
+
+
+    /* ====== SECTION FOUR ======= */
+    .sectionFour{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5%;
+        padding-top: 12%;
+        gap: 100px;
+        /* background-color: rgb(240, 240, 247); */
+    }
+
+    .secondFourFirst{
+        width: 100%;
+    }
+
+    .sectionFourFirst .firstButton{
+        background-color: rgb(236, 242, 254);
+        border-radius: 10px;
+        color: rgb(9, 34, 86);
+        font-size: 20px;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .sectionFourFirst h2{
+        font-size: 40px;
+        color: rgb(9, 34, 86);
+        line-height: 40px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 0;
+    }
+
+    .sectionFourFirst p{
+        font-size: 15px;
+        font-family: sans-serif;
+        color:  rgb(9, 34, 86);
+        line-height: 25px;
+    }
+
+    .sectionFourFirst .secondButton{
+        background-color: rgb(3, 87, 238);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px;
+        border: none;
+    } 
+
+    .sectionFourFirst .thirdButton{
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 87, 238);
+        font-size: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+    } 
+
+        /* ======== SECTION FIVE ========= */
+
+    .sectionFive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 12%;
+        padding-top: 12%;
+        gap: 150px;
+        /* background-color: rgb(240, 240, 247); */
+    }
+
+    .secondFiveFirst{
+        width: 100%;
+    }
+
+    .sectionFiveFirst .firstButton{
+        background-color: rgb(236, 242, 254);
+        border-radius: 10px;
+        color: rgb(9, 34, 86);
+        font-size: 20px;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .sectionFiveFirst h2{
+        font-size: 40px;
+        color: rgb(9, 34, 86);
+        line-height: 40px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 0;
+    }
+
+    .sectionFiveFirst p{
+        font-size: 15px;
+        font-family: sans-serif;
+        color:  rgb(9, 34, 86);
+        line-height: 25px;
+    }
+
+    .sectionFiveFirst .secondButton{
+        background-color: rgb(3, 87, 238);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px;
+        border: none;
+    } 
+
+    .sectionFiveFirst .thirdButton{
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 87, 238);
+        font-size: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+    } 
+
+    .sectionFiveSecond{
+        width: 100%;
+    }
+
+    .sectionFiveSecond img{
+        width: 130%;
+    }
+
+    /* ======== SECTION SIX ========= */
+
+    .sectionSix{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 12%;
+        padding-top: 12%;
+        gap: 100px;
+        /* background-color: rgb(240, 240, 247); */
+    }
+
+    .secondSixFirst{
+        width: 100%;
+    }
+
+    .sectionSixFirst .firstButton{
+        background-color: rgb(236, 242, 254);
+        border-radius: 10px;
+        color: rgb(9, 34, 86);
+        font-size: 20px;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .sectionSixFirst h2{
+        font-size: 40px;
+        color: rgb(9, 34, 86);
+        line-height: 40px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 0;
+    }
+
+    .sectionSixFirst p{
+        font-size: 15px;
+        font-family: sans-serif;
+        color:  rgb(9, 34, 86);
+        line-height: 25px;
+    }
+
+    .sectionSixFirst .secondButton{
+        background-color: rgb(3, 87, 238);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px;
+        border: none;
+    } 
+
+    .sectionSixFirst .thirdButton{
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 87, 238);
+        font-size: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+    }
+    
+    .sectionSixSecond{
+        width: 100%;
+    }
+
+    .sectionSixSecond img{
+        width: 130%;
+    }
+
+    /* ======== SECTION SEVEN ========= */
+
+    .sectionSeven{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5%;
+        padding-top: 12%;
+        gap: 100px;
+        /* background-color: rgb(240, 240, 247); */
+    }
+
+    .secondSevenFirst{
+        width: 100%;
+    }
+
+    .sectionSevenFirst .firstButton{
+        background-color: rgb(236, 242, 254);
+        border-radius: 10px;
+        color: rgb(9, 34, 86);
+        font-size: 20px;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .sectionSevenFirst h2{
+        font-size: 40px;
+        color: rgb(9, 34, 86);
+        line-height: 40px;
+        font-weight: 500;
+        padding: 10px 0;
+    }
+
+    .sectionSevenFirst p{
+        font-size: 15px;
+        color:  rgb(9, 34, 86);
+        line-height: 25px;
+    }
+
+    .sectionSevenFirst .secondButton{
+        background-color: rgb(3, 87, 238);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px;
+        border: none;
+    } 
+
+    .sectionSevenFirst .thirdButton{
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 87, 238);
+        font-size: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+    } 
+
+    /* ======= SECTION EIGHT ======== */
+    .sectionEight{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 30px;
+        padding-right: 18%;
+    }
+
+    .sectionEightFirst{
+        
+    }
+
+    .sectionEightFirst h2{
+        font-size: 40px;
+        color: rgb(9, 34, 86);
+        padding-bottom: 20px;
+    }
+
+    .sectionEightFirst p{
+        font-size: 15px;
+        color: rgb(9, 34, 86);
+    }
+
+    .sectionEightFirst h3{
+        font-size: 15px;
+        color: rgb(9, 34, 86);
+    }
+
+    .sectionEightFirst span{
+        font-size: 15px;
+        color: rgb(9, 34, 86);
+    }
+
+    .sectionEightSecond{
+        width: fit-content;
+    }
+
+    .sectionEightSecond img{
+        width: 150%;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+    /* ======== SECTION NINE ======== */
+    /* .sectionNine{
+        background-color: rgb(240, 240, 247);
+    } */
+
+    .sectionNineFirst{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 150px;
+        padding: 20px;
+    }
+
+    .sectionNineFirst h2{
+        font-size: 40px;
+        color: rgb(9, 34, 86);
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    .sectionNineFirst p{
+        font-size: 15px;
+        color:  rgb(9, 34, 86);
+        line-height: 25px;
+    }
+
+    .sectionNineSecond{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .sectionNineSecond div{
+        padding: 30px;
+        margin: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .sectionNineSecond div p{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(245, 229, 200);
+        border-radius: 40%;
+        width: fit-content;
+        margin: 20px 0;
+        color:  rgb(9, 34, 86);
+    }
+
+    .sectionNineSecond div h2{
+        color:  black;
+    }
+
+    .sectionNineSecond div h4{
+        font-size: 15px;
+        font-weight: 500;
+        color:  rgb(9, 34, 86);
+    }
+
+    /* ======= SECTION TEN ====== */
+    .sectionTen{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        padding: 0 5%;
+        padding-top: 12%;
+        gap: 50px;
+        /* background-color: rgb(240, 240, 247); */
+    }
+
+    .sectionTenFirst h2{
+        font-size: 40px;
+        color: rgb(9, 34, 86);
+        line-height: 40px;
+        font-weight: 500;
+        padding: 10px 0;
+    }
+
+    .sectionTenFirst p{
+        font-size: 15px;
+        color:  rgb(9, 34, 86);
+        line-height: 25px;
+    }
+
+    .sectionTenSecond{
+        width: 100px;
+    }
+
+    .sectionTenSecond img{
+        width: 500%;
+    }
+
+    /* ====== SECTION ELEVEN ====== */
+
+    /* .sectionEleven{
+        background-color: rgb(240, 240, 247);
+    }
+
+    .sectionElevenFirst{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .sectionElevenFirst div{
+        margin: 30px;
+    }
+
+    .sectionElevenFirst div p{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 40%;
+        width: fit-content;
+        margin: 30px;
+        color:  rgb(9, 34, 86);
+    }
+
+    .sectionElevenFirst div h2{
+        color: rgb(9, 34, 86);
+        font-size: 15px;
+    }
+
+    .sectionElevenFirst div h4{
+        color: rgb(9, 34, 86);
+    }
+
+    .sectionElevenSecond{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .sectionElevenSecond button{
+        background-color: rgb(9, 34, 86);
+        color: white;
+        padding: 5px 5%;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        border: none;
+    } */
+
+    /* ====== SECTION TWELVE ====== */
+    .sectioTwelveFirst h2{
+        font-size: 50px;
+        color: rgb(9, 34, 86);
+    }
+
+    .sectionTwelveFirst p{
+        font-size: 20px;
+        color: rgb(9, 34, 86);
+    }
+
+    .sectionTwelveSecond{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 0 30px;
+        margin-left: 50px;
+    }
+    
+    .sectionTwelveSecond{
+        padding: 30px;
+    }
+    
+    .sectionTwelveSecond div img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .sectionTwelveSecond div h2{
+        color: rgb(9, 34, 86);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .sectionTwelveSecond div p{
+        color: rgb(9, 34, 86);
+    }
+    /* ====== SECTION THIRTEEN ======= */
+    .sectionThirteen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color:  rgb(3, 87, 238);
+        background-image: url(/ctaL.svg);
+        background-size: cover;
+        padding: 70px 25%;
+    }
+
+    .sectionThirteen h2{
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        padding: 20px;
+    }
+    
+    .sectionThirteen div button{
+        text-align: center;
+    }
+
+    .sectionThirteen button{
+        background-color: rgb(255, 240, 194);
+        color: black;
+        border-radius: 20px;
+        border: none;
+        padding: 15px;
+    }
+
+    /* ===== SECTION FOURTEEN ==== */
+    .sectionFourteen{
+        background-color: rgb(3, 11, 29);
+    }
+    
+    .sectionFourteenFirst{
+        padding: 30px 20px;
+        padding-bottom: 5px;
+    }
+    
+    .sectionFourteenFirst img{
+        width: 100px;
+    }
+    
+    .sectionFourteenSecond{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .sectionFourteenSecond div{
+        color: #f9fafb;
+        padding: 20px;
+    }
+    
+    .sectionFourteenSecond div p{
+        font-size: 15px;
+    }
+    
+    .sectionFourteenSecond div button{
+        background-color: black;
+        color: #f9fafb;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        margin: 20px;
+    }
+    
+    .sectionFourteenSecond div ul{
+        font-weight: bold;
+        /* margin: 20px 0; */
+    }
+    
+    .sectionFourteenSecond div ul li{
+        font-weight: 200;
+        list-style: none;
+        padding: 3px;
+    }
+    
+    
+    .sectionFourteenThird{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30%;
+    }
+    
+    .sectionFourteenThird h2{
+        color: #f9fafb;
+        font-weight: 200;
+        font-size: 15px;
+    }
+    
+    .sectionFourteenThird div ul{
+        display: flex;
+        padding: 10px;
+    }
+    
+    .sectionFourteenThird div ul li{
+        list-style: none;
+        background-color: rgb(129, 126, 126);
+        border-radius: 50%;
+        padding: 5px;
+        width: fit-content;
+        color: black;
+    }
+    
+    .sectionFourteenThird div img{
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+    }
+    
+    .sectionFourteeenFourth div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8490aa;
+        gap: 55%;
+        padding: 10% 0;
+    }
+    
+    .sectionFourteenFourth div ul{
+        display: flex;
+    }
+    
+    .sectionFourteenFourth div ul li{
+        list-style: none;
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .sectionFourteeenFifth p{
+        color: #ffff;
+        font-size: 13px;
+        padding: 0 30px;
+        /* padding-top: 0; */
+    }

@@ -1,0 +1,66 @@
+
+
+#submit{
+    background-color: #2ca7a7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #547474;
+    transform: scale(1.2);
+    transition: all ease-in-out 0.5s;
+}
+
+.parentDiv{
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 30px;
+}
+
+.parentDiv p{
+    color: red;
+    padding: 20px o;
+}
+
+.parentDiv h2{
+    color: blue;
+}
+
+.parentDiv h4{
+    color: rgb(212, 65, 163);
+}
+
+.Jumia:hover{
+transform: scale(1.1);
+transition: all ease-in-out 0.5s;
+}
+
+.Jumia1:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.Jumia2:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.Jumia3:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.Jumia4:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.Jumia5:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
